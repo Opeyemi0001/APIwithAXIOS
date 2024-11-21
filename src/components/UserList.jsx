@@ -30,7 +30,7 @@ const UserList = () => {
             {data.slice(0, limit).map((user) => (
               <div key={user.id}>
                 <div   style={{height:"15rem", border:"1px solid black", margin:"1.5rem", borderRadius:"1.5rem", padding:"0.5rem"}}>
-                  <p> <strong>ID:</strong> {user.id}</p>
+                  {/* <p> <strong>ID:</strong> {user.id}</p> */}
                   <p> <strong>Name:</strong> {user.name}</p>
                   <p> <strong>Email Address:</strong> {user.email} </p>
                   <p> <strong>Address:</strong> {`${user.address.street}, ${user.address.city}`} </p>
